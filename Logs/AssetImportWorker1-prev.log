@@ -1,0 +1,128 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.4f1 (0abb6314276a) revision 703331'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1288; Version 2009; 64bit' Language: 'de' Physical Memory: 16334 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Projekte\Unity\2020.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Projekte/GitHub/BA_Agent_Protoyp 1
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+51681
+Successfully changed project path to: D:/Projekte/GitHub/BA_Agent_Protoyp 1
+D:/Projekte/GitHub/BA_Agent_Protoyp 1
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 31.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.4f1 (0abb6314276a)
+[Subsystems] Discovering subsystems at path D:/Projekte/Unity/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Projekte/GitHub/BA_Agent_Protoyp 1/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   30.0.14.7212
+Initialize mono
+Mono path[0] = 'D:/Projekte/Unity/2020.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Projekte/Unity/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Projekte/Unity/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56760
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Projekte/Unity/2020.3.4f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: D:/Projekte/Unity/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001511 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 29.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.055 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002205 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.981 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1239 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.3 MB.
+System memory in use after: 66.2 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 1714.
+Total: 2.049700 ms (FindLiveObjects: 0.188300 ms CreateObjectMapping: 0.032300 ms MarkObjects: 1.742100 ms  DeleteObjects: 0.085800 ms)
+
+========================================================================
+Received Import Request.
+  path: Packages/com.unity.xr.legacyinputhelpers/Tests
+  artifactKey: Guid(7928452df125f6b4383b4691b9aec342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.legacyinputhelpers/Tests using Guid(7928452df125f6b4383b4691b9aec342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c56989aaf023963dc17ccf6042ccbf1e') in 0.006877 seconds
+  Import took 0.009166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Packages/com.unity.xr.legacyinputhelpers/Tests/Runtime
+  artifactKey: Guid(11a5cf454eec528428e2df5463d6a0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.legacyinputhelpers/Tests/Runtime using Guid(11a5cf454eec528428e2df5463d6a0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85601f6563dde70b194f1915a5ba77eb') in 0.003960 seconds
+  Import took 0.005961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.093961 seconds.
+  path: Assets/XR/Settings
+  artifactKey: Guid(1ce098c85bc7ae84f97ed5d0fa2af38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings using Guid(1ce098c85bc7ae84f97ed5d0fa2af38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb87fce09506e6f298ef32add4ab70a0') in 0.004335 seconds
+  Import took 0.006642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051423 seconds.
+  path: Assets/XR/Settings/Sample Settings.asset
+  artifactKey: Guid(8e3f64df2424d4749a1b09ab29efa6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/Sample Settings.asset using Guid(8e3f64df2424d4749a1b09ab29efa6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da354a834bc2589c1c1a903cfa875818') in 0.033694 seconds
+  Import took 0.036061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.648254 seconds.
+  path: Assets/XR/Loaders
+  artifactKey: Guid(86b15e35e0160b747afd31215f62ebe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders using Guid(86b15e35e0160b747afd31215f62ebe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6bc011fecec3339b81d731ba76054da') in 0.004415 seconds
+  Import took 0.006745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000615 seconds.
+  path: Assets/XR/Loaders
+  artifactKey: Guid(86b15e35e0160b747afd31215f62ebe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders using Guid(86b15e35e0160b747afd31215f62ebe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6bc011fecec3339b81d731ba76054da') in 0.004015 seconds
+  Import took 0.006170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048567 seconds.
+  path: Assets/XR/Loaders/Sample Loader.asset
+  artifactKey: Guid(d32e94562f6344f4284bd6b9fc813d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders/Sample Loader.asset using Guid(d32e94562f6344f4284bd6b9fc813d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7968af579534db5af26d5b9af5e5309b') in 0.005785 seconds
+  Import took 0.008195 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
