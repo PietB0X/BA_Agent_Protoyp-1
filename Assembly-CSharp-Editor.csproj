@@ -56,40 +56,40 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Normal/Internal/Editor/SimpleJson.cs" />
-    <Compile Include="Assets/Normal/Internal/Editor/PackageManager.cs" />
-    <Compile Include="Assets/UXF/Scripts/Etc/HideIf/Editor/Utilities.cs" />
-    <Compile Include="Assets/UXF/Tests/Editor/TestUILogic.cs" />
-    <Compile Include="Assets/UXF/Scripts/Etc/Editor/AWSCredentialsEditor.cs" />
+    <Compile Include="Assets/UXF/Tests/Editor/TestSessionBehaviour.cs" />
+    <Compile Include="Assets/UXF/Scripts/Etc/Editor/SessionEditor.cs" />
+    <Compile Include="Assets/UXF/Tests/Editor/TestEvents.cs" />
+    <Compile Include="Assets/UXF/Scripts/Etc/Editor/UXFWizard.cs" />
+    <Compile Include="Assets/UXF/Scripts/Etc/Editor/Comment.cs" />
+    <Compile Include="Assets/UXF/Tests/Editor/TestBuildingFromCSV.cs" />
+    <Compile Include="Assets/UXF/Tests/Editor/TestSettings.cs" />
+    <Compile Include="Assets/UXF/Scripts/Etc/Editor/DataHandlerDrawer.cs" />
+    <Compile Include="Assets/UXF/Scripts/Etc/Editor/UXFSessionDisplay.cs" />
+    <Compile Include="Assets/UXF/Scripts/Etc/Editor/UIControllerEditor.cs" />
+    <Compile Include="Assets/UXF/Tests/Editor/TestDataTable.cs" />
     <Compile Include="Assets/UXF/Tests/Editor/TestJSON.cs" />
     <Compile Include="Assets/UXF/Scripts/Etc/Editor/BuildTargetDrawer.cs" />
     <Compile Include="Assets/UXF/Scripts/Etc/Editor/EasyEventEditor.cs" />
-    <Compile Include="Assets/UXF/Scripts/Etc/Editor/UXFSessionDisplay.cs" />
-    <Compile Include="Assets/UXF/Scripts/Etc/Editor/UIControllerEditor.cs" />
-    <Compile Include="Assets/UXF/Tests/Editor/TestLocale.cs" />
     <Compile Include="Assets/UXF/Scripts/Etc/Editor/ReadOnlyDrawer.cs" />
-    <Compile Include="Assets/UXF/Scripts/Etc/Editor/TrackerEditor.cs" />
-    <Compile Include="Assets/UXF/Tests/Editor/TestBuildingFromCSV.cs" />
     <Compile Include="Assets/UXF/Scripts/Etc/ReorderableInspector/Editor/SerializedPropExtension.cs" />
-    <Compile Include="Assets/UXF/Scripts/Etc/Editor/UXFBuildPreprocessor.cs" />
-    <Compile Include="Assets/UXF/Tests/Editor/TestMultithreading.cs" />
-    <Compile Include="Assets/UXF/Tests/Editor/TestSessionBehaviour.cs" />
-    <Compile Include="Assets/UXF/Tests/Editor/TestDataTable.cs" />
-    <Compile Include="Assets/UXF/Scripts/Etc/ReorderableInspector/Editor/ReorderableArrayInspector.cs" />
     <Compile Include="Assets/UXF/Scripts/Etc/HideIf/Editor/HideIfAttributeDrawer.cs" />
-    <Compile Include="Assets/UXF/Scripts/Etc/Editor/SessionEditor.cs" />
+    <Compile Include="Assets/UXF/Tests/Editor/TestMultithreading.cs" />
     <Compile Include="Assets/UXF/Tests/Editor/TestSessionBuilding.cs" />
-    <Compile Include="Assets/UXF/Tests/Editor/TestTrackers.cs" />
-    <Compile Include="Assets/UXF/Tests/Editor/TestEvents.cs" />
-    <Compile Include="Assets/UXF/Scripts/Etc/Editor/UXFWizard.cs" />
     <Compile Include="Assets/UXF/Scripts/Etc/Editor/ExecutionOrderManager.cs" />
-    <Compile Include="Assets/UXF/Tests/Editor/TestTrials.cs" />
-    <Compile Include="Assets/UXF/Tests/Editor/TestSettings.cs" />
     <Compile Include="Assets/UXF/Scripts/Etc/Editor/EditorExtensions.cs" />
+    <Compile Include="Assets/UXF/Scripts/Etc/HideIf/Editor/Utilities.cs" />
+    <Compile Include="Assets/UXF/Tests/Editor/TestUILogic.cs" />
+    <Compile Include="Assets/UXF/Scripts/Etc/Editor/AWSCredentialsEditor.cs" />
+    <Compile Include="Assets/Normal/Internal/Editor/SimpleJson.cs" />
+    <Compile Include="Assets/UXF/Scripts/Etc/ReorderableInspector/Editor/ReorderableArrayInspector.cs" />
+    <Compile Include="Assets/Normal/Internal/Editor/PackageManager.cs" />
+    <Compile Include="Assets/UXF/Scripts/Etc/Editor/TrackerEditor.cs" />
+    <Compile Include="Assets/UXF/Scripts/Etc/Editor/UXFBuildPreprocessor.cs" />
+    <Compile Include="Assets/UXF/Tests/Editor/TestTrackers.cs" />
+    <Compile Include="Assets/UXF/Tests/Editor/TestTrials.cs" />
     <Compile Include="Assets/UXF/Tests/Editor/TestFileIOManager.cs" />
+    <Compile Include="Assets/UXF/Tests/Editor/TestLocale.cs" />
     <Compile Include="Assets/UXF/Scripts/UI/Form/Editor/FormElementEntryDrawer.cs" />
-    <Compile Include="Assets/UXF/Scripts/Etc/Editor/DataHandlerDrawer.cs" />
-    <Compile Include="Assets/UXF/Scripts/Etc/Editor/Comment.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -329,17 +329,17 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="Ookii.Dialogs">
+      <HintPath>Assets/UXF/Plugins/Ookii.Dialogs.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>Assets/UXF/Plugins/System.Windows.Forms.dll</HintPath>
+    </Reference>
     <Reference Include="Normcore.Editor">
       <HintPath>Library/PackageCache/com.normalvr.normcore@2.1.10/Editor/Normcore.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Normcore">
       <HintPath>Library/PackageCache/com.normalvr.normcore@2.1.10/Runtime/UnityEditor/Normcore.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Windows.Forms">
-      <HintPath>Assets/UXF/Plugins/System.Windows.Forms.dll</HintPath>
-    </Reference>
-    <Reference Include="Ookii.Dialogs">
-      <HintPath>Assets/UXF/Plugins/Ookii.Dialogs.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
@@ -704,14 +704,8 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-      <HintPath>Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Normal.Realtime">
-      <HintPath>Library/ScriptAssemblies/Normal.Realtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
@@ -719,20 +713,14 @@
     <Reference Include="Unity.XR.Management.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-      <HintPath>Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Management">
-      <HintPath>Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+    <Reference Include="Unity.XR.Interaction.Toolkit">
+      <HintPath>Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Subsystem.Registration">
       <HintPath>Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
@@ -740,8 +728,8 @@
     <Reference Include="UnityEditor.UI">
       <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.SpatialTracking">
-      <HintPath>Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
@@ -752,20 +740,32 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
-    <Reference Include="Normal.Realtime.Editor">
-      <HintPath>Library/ScriptAssemblies/Normal.Realtime.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.InputSystem">
-      <HintPath>Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Normal.Realtime">
+      <HintPath>Library/ScriptAssemblies/Normal.Realtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Management">
+      <HintPath>Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Interaction.Toolkit.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.XR.Interaction.Toolkit">
-      <HintPath>Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.dll</HintPath>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Normal.Realtime.Editor">
+      <HintPath>Library/ScriptAssemblies/Normal.Realtime.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -56,97 +56,98 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Normal/Examples/Blank Scene Template/Scripts/OculusSetFloorTrackingOriginWithoutPlugin.cs" />
-    <Compile Include="Assets/Normal/Examples/Cube Player/Scripts/CubePlayerManager.cs" />
-    <Compile Include="Assets/Normal/Examples/VR Player/Scripts/VoiceMouthMove.cs" />
-    <Compile Include="Assets/Normal/Examples/Hoverbird Player/Scripts/HoverbirdPlayer.cs" />
-    <Compile Include="Assets/Normal/Examples/Hoverbird Player/Scripts/HoverbirdPlayerManager.cs" />
-    <Compile Include="Assets/Normal/Examples/Cube Player/Scripts/CubePlayer.cs" />
-    <Compile Include="Assets/Scripts/RaycastDetect.cs" />
-    <Compile Include="Assets/UXF/Scripts/Etc/ReorderableInspector/ReorderableAttribute.cs" />
-    <Compile Include="Assets/UXF/Scripts/UI/LinkOpener.cs" />
-    <Compile Include="Assets/UXF/Scripts/Etc/AWSCredentials.cs" />
     <Compile Include="Assets/UXF/Scripts/SessionLogger.cs" />
-    <Compile Include="Assets/UXF/Examples/3_MultiScene_FootballAndRT/Scripts/Example_ShootingTask.cs" />
-    <Compile Include="Assets/UXF/Examples/3_MultiScene_FootballAndRT/Scripts/Example_ReactionStim.cs" />
+    <Compile Include="Assets/UXF/Scripts/Trackers/MouseWorldTracker.cs" />
+    <Compile Include="Assets/UXF/Scripts/Etc/MiniJSON.cs" />
+    <Compile Include="Assets/UXF/Scripts/Etc/Tracker.cs" />
+    <Compile Include="Assets/UXF/Scripts/UI/PopupController.cs" />
+    <Compile Include="Assets/UXF/Scripts/DataHandling/ExampleCustomDataHandler.cs" />
+    <Compile Include="Assets/UXF/Scripts/Etc/ISettingsContainer.cs" />
+    <Compile Include="Assets/UXF/Scripts/UI/Form/CheckboxElementSetup.cs" />
+    <Compile Include="Assets/UXF/Examples/1b_SpaceShuttle_ManualStart/Example_InitialiseSessionManually.cs" />
+    <Compile Include="Assets/UXF/Scripts/Etc/InspectorButton.cs" />
+    <Compile Include="Assets/UXF/Scripts/DataHandling/LocalFileDataHander.cs" />
+    <Compile Include="Assets/UXF/Scripts/UI/LocalDirectorySelector.cs" />
+    <Compile Include="Assets/UXF/Examples/4_CorsiBlock/Scripts/Example_CorsiFeedback.cs" />
+    <Compile Include="Assets/UXF/Scripts/UI/StandaloneFileBrowser/StandaloneFileBrowserEditor.cs" />
+    <Compile Include="Assets/UXF/Scripts/Etc/Block.cs" />
+    <Compile Include="Assets/UXF/Scripts/DataHandling/HTTPPost.cs" />
+    <Compile Include="Assets/UXF/Examples/2_MoveToTarget/Scripts/Example_StartBlockController.cs" />
+    <Compile Include="Assets/UXF/Scripts/Etc/ReorderableInspector/EditScriptableAttribute.cs" />
+    <Compile Include="Assets/Normal/Examples/Blank Scene Template/Scripts/OculusSetFloorTrackingOriginWithoutPlugin.cs" />
+    <Compile Include="Assets/UXF/Scripts/UI/StandaloneFileBrowser/StandaloneFileBrowserWindows.cs" />
+    <Compile Include="Assets/UXF/Scripts/DataHandling/FileSaver.cs" />
+    <Compile Include="Assets/UXF/Examples/4_CorsiBlock/Scripts/Example_CorsiCubeGroup.cs" />
+    <Compile Include="Assets/UXF/Scripts/UI/StandaloneFileBrowser/IStandaloneFileBrowser.cs" />
+    <Compile Include="Assets/UXF/Scripts/UI/KeypressEvent.cs" />
+    <Compile Include="Assets/UXF/Scripts/Etc/AWSCredentials.cs" />
     <Compile Include="Assets/UXF/Examples/2_MoveToTarget/Scripts/Example_TaskManager.cs" />
     <Compile Include="Assets/UXF/Examples/4_CorsiBlock/Scripts/Example_CorsiCube.cs" />
-    <Compile Include="Assets/UXF/Scripts/UI/StandaloneFileBrowser/StandaloneFileBrowser.cs" />
-    <Compile Include="Assets/UXF/Scripts/Trackers/MouseWorldTracker.cs" />
-    <Compile Include="Assets/UXF/Examples/2_MoveToTarget/Scripts/Example_ExperimentGenerator.cs" />
-    <Compile Include="Assets/UXF/Examples/4_CorsiBlock/Scripts/Example_CorsiFeedback.cs" />
-    <Compile Include="Assets/UXF/Examples/3_MultiScene_FootballAndRT/Scripts/Example_ShootTarget.cs" />
-    <Compile Include="Assets/UXF/Examples/3_MultiScene_FootballAndRT/Scripts/Example_ReactionTask.cs" />
     <Compile Include="Assets/UXF/Scripts/SessionBuilders/CSVExperimentBuilder.cs" />
-    <Compile Include="Assets/UXF/Scripts/UI/Form/FormElement.cs" />
-    <Compile Include="Assets/UXF/Scripts/UI/StandaloneFileBrowser/StandaloneFileBrowserEditor.cs" />
-    <Compile Include="Assets/UXF/Scripts/Etc/MiniJSON.cs" />
-    <Compile Include="Assets/UXF/Scripts/UI/InfoBarController.cs" />
-    <Compile Include="Assets/UXF/Scripts/Etc/ResultsDict.cs" />
-    <Compile Include="Assets/UXF/Scripts/Etc/Block.cs" />
-    <Compile Include="Assets/UXF/Scripts/Etc/ReadOnlyAttribute.cs" />
-    <Compile Include="Assets/UXF/Scripts/Etc/Tracker.cs" />
-    <Compile Include="Assets/UXF/Scripts/Etc/Events.cs" />
     <Compile Include="Assets/UXF/Examples/_Shared_Assets/Example_Engine.cs" />
+    <Compile Include="Assets/UXF/Scripts/Etc/UXFDataTable.cs" />
+    <Compile Include="Assets/Normal/Examples/VR Player/Scripts/VoiceMouthMove.cs" />
+    <Compile Include="Assets/UXF/Examples/2_MoveToTarget/Scripts/Example_InstructionsController.cs" />
+    <Compile Include="Assets/UXF/Scripts/Etc/IExperimentBuilder.cs" />
+    <Compile Include="Assets/UXF/Scripts/UI/NotesController.cs" />
+    <Compile Include="Assets/UXF/Scripts/UI/StandaloneFileBrowser/StandaloneFileBrowser.cs" />
+    <Compile Include="Assets/UXF/Examples/2_MoveToTarget/Scripts/Example_ExperimentGenerator.cs" />
+    <Compile Include="Assets/UXF/Scripts/UI/Form/FormElement.cs" />
+    <Compile Include="Assets/UXF/Scripts/UI/InfoBarController.cs" />
+    <Compile Include="Assets/UXF/Scripts/Etc/Utilities.cs" />
+    <Compile Include="Assets/UXF/Examples/2_MoveToTarget/Scripts/Example_TargetManager.cs" />
+    <Compile Include="Assets/UXF/Scripts/DataHandling/DataHandler.cs" />
+    <Compile Include="Assets/UXF/Scripts/UI/NoteElementController.cs" />
+    <Compile Include="Assets/Normal/Examples/Hoverbird Player/Scripts/HoverbirdPlayer.cs" />
+    <Compile Include="Assets/UXF/Examples/_Shared_Assets/Example_DisplayEndSessionMessage.cs" />
+    <Compile Include="Assets/UXF/Examples/2_MoveToTarget/Scripts/Example_CursorFollower.cs" />
+    <Compile Include="Assets/UXF/Scripts/EventSystemFallback.cs" />
+    <Compile Include="Assets/UXF/Scripts/UI/StandaloneFileBrowser/StandaloneFileBrowserLinux.cs" />
+    <Compile Include="Assets/UXF/Scripts/UI/InputFieldKeyboardReturnEvent.cs" />
+    <Compile Include="Assets/UXF/Scripts/Etc/Events.cs" />
     <Compile Include="Assets/UXF/Scripts/Etc/Trial.cs" />
     <Compile Include="Assets/UXF/Scripts/Etc/SessionExtensions.cs" />
     <Compile Include="Assets/UXF/Scripts/UI/WebFileElement.cs" />
-    <Compile Include="Assets/UXF/Scripts/DataHandling/HTTPPost.cs" />
-    <Compile Include="Assets/UXF/Scripts/Etc/Utilities.cs" />
-    <Compile Include="Assets/UXF/Examples/2_MoveToTarget/Scripts/Example_StartBlockController.cs" />
-    <Compile Include="Assets/UXF/Examples/2_MoveToTarget/Scripts/Example_TargetManager.cs" />
     <Compile Include="Assets/UXF/Scripts/DataHandling/WebAWSDynamoDB.cs" />
-    <Compile Include="Assets/UXF/Examples/4_CorsiBlock/Scripts/Example_CorsiBlockTask.cs" />
-    <Compile Include="Assets/UXF/Scripts/UI/DraggableUI.cs" />
+    <Compile Include="Assets/UXF/Scripts/Etc/HideIf/HideIfAttribute.cs" />
+    <Compile Include="Assets/UXF/Scripts/UI/UIController.cs" />
+    <Compile Include="Assets/UXF/Examples/3_MultiScene_FootballAndRT/Scripts/Example_MultiSceneExperimentGenerator.cs" />
+    <Compile Include="Assets/UXF/Scripts/Etc/Settings.cs" />
+    <Compile Include="Assets/UXF/Examples/1a_SpaceShuttle/Example_BasicExampleScript.cs" />
+    <Compile Include="Assets/UXF/Scripts/UI/FadeImage.cs" />
+    <Compile Include="Assets/UXF/Scripts/Etc/CameraDisplayOverride.cs" />
+    <Compile Include="Assets/UXF/Scripts/Etc/ReorderableInspector/ReorderableAttribute.cs" />
+    <Compile Include="Assets/UXF/Examples/3_MultiScene_FootballAndRT/Scripts/Example_ShootingTask.cs" />
+    <Compile Include="Assets/UXF/Examples/3_MultiScene_FootballAndRT/Scripts/Example_ReactionStim.cs" />
+    <Compile Include="Assets/UXF/Examples/3_MultiScene_FootballAndRT/Scripts/Example_ShootTarget.cs" />
+    <Compile Include="Assets/UXF/Examples/3_MultiScene_FootballAndRT/Scripts/Example_ReactionTask.cs" />
     <Compile Include="Assets/UXF/Scripts/Etc/Comment.cs" />
     <Compile Include="Assets/UXF/Scripts/DataHandling/DownloadOrCopyHandler.cs" />
-    <Compile Include="Assets/UXF/Scripts/Session.cs" />
-    <Compile Include="Assets/UXF/Scripts/Etc/HideIf/HideIfAttribute.cs" />
     <Compile Include="Assets/UXF/Scripts/UI/StandaloneFileBrowser/StandaloneFileBrowserMac.cs" />
-    <Compile Include="Assets/UXF/Scripts/DataHandling/DataHandler.cs" />
-    <Compile Include="Assets/UXF/Scripts/UI/PopupController.cs" />
-    <Compile Include="Assets/UXF/Scripts/UI/ClickOutsidePanelEvent.cs" />
-    <Compile Include="Assets/UXF/Scripts/DataHandling/ExampleCustomDataHandler.cs" />
-    <Compile Include="Assets/UXF/Scripts/UI/UIController.cs" />
-    <Compile Include="Assets/UXF/Scripts/Etc/UXFDataTable.cs" />
-    <Compile Include="Assets/UXF/Scripts/UI/NoteElementController.cs" />
-    <Compile Include="Assets/UXF/Scripts/Etc/ReorderableInspector/EditScriptableAttribute.cs" />
     <Compile Include="Assets/UXF/Scripts/UI/PPIDRandomGenerator.cs" />
-    <Compile Include="Assets/UXF/Examples/3_MultiScene_FootballAndRT/Scripts/Example_MultiSceneExperimentGenerator.cs" />
     <Compile Include="Assets/UXF/Scripts/UI/Form/DropDownElementSetup.cs" />
     <Compile Include="Assets/UXF/Scripts/Etc/Extensions.cs" />
-    <Compile Include="Assets/UXF/Scripts/Etc/Settings.cs" />
     <Compile Include="Assets/UXF/Examples/2_MoveToTarget/Scripts/Example_TargetController.cs" />
     <Compile Include="Assets/UXF/Scripts/ApplicationHandler.cs" />
-    <Compile Include="Assets/UXF/Scripts/Etc/ISettingsContainer.cs" />
-    <Compile Include="Assets/UXF/Examples/2_MoveToTarget/Scripts/Example_InstructionsController.cs" />
-    <Compile Include="Assets/UXF/Scripts/Etc/HideIf/HideIfExampleScript.cs" />
     <Compile Include="Assets/UXF/Scripts/Trackers/MouseScreenTracker.cs" />
-    <Compile Include="Assets/UXF/Scripts/UI/StandaloneFileBrowser/StandaloneFileBrowserWindows.cs" />
-    <Compile Include="Assets/UXF/Scripts/UI/Form/CheckboxElementSetup.cs" />
-    <Compile Include="Assets/UXF/Examples/1a_SpaceShuttle/Example_BasicExampleScript.cs" />
-    <Compile Include="Assets/UXF/Examples/_Shared_Assets/Example_DisplayEndSessionMessage.cs" />
-    <Compile Include="Assets/UXF/Examples/1b_SpaceShuttle_ManualStart/Example_InitialiseSessionManually.cs" />
-    <Compile Include="Assets/UXF/Examples/2_MoveToTarget/Scripts/Example_CursorFollower.cs" />
-    <Compile Include="Assets/UXF/Scripts/DataHandling/FileSaver.cs" />
-    <Compile Include="Assets/UXF/Examples/4_CorsiBlock/Scripts/Example_CorsiCubeGroup.cs" />
-    <Compile Include="Assets/UXF/Scripts/Etc/InspectorButton.cs" />
     <Compile Include="Assets/UXF/Scripts/UI/Form/TextElementSetup.cs" />
-    <Compile Include="Assets/UXF/Examples/3_MultiScene_FootballAndRT/Scripts/Example_Shooter.cs" />
-    <Compile Include="Assets/UXF/Scripts/Etc/IExperimentBuilder.cs" />
-    <Compile Include="Assets/UXF/Scripts/EventSystemFallback.cs" />
-    <Compile Include="Assets/UXF/Scripts/UI/StandaloneFileBrowser/StandaloneFileBrowserLinux.cs" />
     <Compile Include="Assets/UXF/Scripts/UI/ExperimentProfileSelector.cs" />
-    <Compile Include="Assets/UXF/Scripts/DataHandling/LocalFileDataHander.cs" />
-    <Compile Include="Assets/UXF/Scripts/UI/FadeImage.cs" />
-    <Compile Include="Assets/UXF/Scripts/UI/StandaloneFileBrowser/IStandaloneFileBrowser.cs" />
-    <Compile Include="Assets/UXF/Scripts/UI/InputFieldKeyboardReturnEvent.cs" />
-    <Compile Include="Assets/UXF/Scripts/UI/KeypressEvent.cs" />
-    <Compile Include="Assets/UXF/Scripts/UI/LocalDirectorySelector.cs" />
-    <Compile Include="Assets/UXF/Scripts/Etc/BlockingQueue.cs" />
-    <Compile Include="Assets/UXF/Scripts/UI/NotesController.cs" />
-    <Compile Include="Assets/UXF/Scripts/Etc/CameraDisplayOverride.cs" />
     <Compile Include="Assets/UXF/Scripts/Trackers/PositionRotationTracker.cs" />
+    <Compile Include="Assets/UXF/Scripts/Etc/ResultsDict.cs" />
+    <Compile Include="Assets/UXF/Examples/4_CorsiBlock/Scripts/Example_CorsiBlockTask.cs" />
+    <Compile Include="Assets/Normal/Examples/Cube Player/Scripts/CubePlayerManager.cs" />
+    <Compile Include="Assets/UXF/Scripts/UI/ClickOutsidePanelEvent.cs" />
+    <Compile Include="Assets/UXF/Scripts/Etc/HideIf/HideIfExampleScript.cs" />
+    <Compile Include="Assets/UXF/Examples/3_MultiScene_FootballAndRT/Scripts/Example_Shooter.cs" />
+    <Compile Include="Assets/UXF/Scripts/Etc/BlockingQueue.cs" />
+    <Compile Include="Assets/UXF/Scripts/UI/LinkOpener.cs" />
+    <Compile Include="Assets/UXF/Scripts/Etc/ReadOnlyAttribute.cs" />
+    <Compile Include="Assets/UXF/Scripts/UI/DraggableUI.cs" />
+    <Compile Include="Assets/UXF/Scripts/Session.cs" />
+    <Compile Include="Assets/Normal/Examples/Hoverbird Player/Scripts/HoverbirdPlayerManager.cs" />
+    <Compile Include="Assets/Normal/Examples/Cube Player/Scripts/CubePlayer.cs" />
+    <Compile Include="Assets/Scripts/RaycastDetect.cs" />
+    <Compile Include="Assets/Scripts/ExperimentGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets/Normal/Examples/Blank Scene Template/Skybox/GradientSkybox.cginc" />
@@ -381,14 +382,14 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>/Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="Normcore">
-      <HintPath>Library/PackageCache/com.normalvr.normcore@2.1.10/Runtime/UnityEditor/Normcore.dll</HintPath>
+    <Reference Include="Ookii.Dialogs">
+      <HintPath>Assets/UXF/Plugins/Ookii.Dialogs.dll</HintPath>
     </Reference>
     <Reference Include="System.Windows.Forms">
       <HintPath>Assets/UXF/Plugins/System.Windows.Forms.dll</HintPath>
     </Reference>
-    <Reference Include="Ookii.Dialogs">
-      <HintPath>Assets/UXF/Plugins/Ookii.Dialogs.dll</HintPath>
+    <Reference Include="Normcore">
+      <HintPath>Library/PackageCache/com.normalvr.normcore@2.1.10/Runtime/UnityEditor/Normcore.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/Hub/Editor/2020.3.4f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -744,14 +745,8 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-      <HintPath>Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Normal.Realtime">
-      <HintPath>Library/ScriptAssemblies/Normal.Realtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
@@ -759,20 +754,14 @@
     <Reference Include="Unity.XR.Management.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-      <HintPath>Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Management">
-      <HintPath>Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+    <Reference Include="Unity.XR.Interaction.Toolkit">
+      <HintPath>Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Subsystem.Registration">
       <HintPath>Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
@@ -780,8 +769,8 @@
     <Reference Include="UnityEditor.UI">
       <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.SpatialTracking">
-      <HintPath>Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
@@ -792,20 +781,32 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
-    <Reference Include="Normal.Realtime.Editor">
-      <HintPath>Library/ScriptAssemblies/Normal.Realtime.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.InputSystem">
-      <HintPath>Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Normal.Realtime">
+      <HintPath>Library/ScriptAssemblies/Normal.Realtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Management">
+      <HintPath>Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Interaction.Toolkit.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.XR.Interaction.Toolkit">
-      <HintPath>Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.dll</HintPath>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Normal.Realtime.Editor">
+      <HintPath>Library/ScriptAssemblies/Normal.Realtime.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

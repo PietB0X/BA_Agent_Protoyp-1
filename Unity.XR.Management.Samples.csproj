@@ -299,17 +299,17 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="Ookii.Dialogs">
+      <HintPath>Assets/UXF/Plugins/Ookii.Dialogs.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>Assets/UXF/Plugins/System.Windows.Forms.dll</HintPath>
+    </Reference>
     <Reference Include="Normcore.Editor">
       <HintPath>Library/PackageCache/com.normalvr.normcore@2.1.10/Editor/Normcore.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Normcore">
       <HintPath>Library/PackageCache/com.normalvr.normcore@2.1.10/Runtime/UnityEditor/Normcore.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Windows.Forms">
-      <HintPath>Assets/UXF/Plugins/System.Windows.Forms.dll</HintPath>
-    </Reference>
-    <Reference Include="Ookii.Dialogs">
-      <HintPath>Assets/UXF/Plugins/Ookii.Dialogs.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
